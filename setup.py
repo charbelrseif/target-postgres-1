@@ -10,8 +10,8 @@ setup(
     classifiers=["Programming Language :: Python :: 3 :: Only"],
     py_modules=["target_postgres"],
     install_requires=[
-        "singer-python==5.1.1",
-        "psycopg2==2.8.5",
+        "singer-python==5.9.0",
+        "psycopg2==2.8.6",
         "inflection==0.3.1"
     ],
     entry_points="""
